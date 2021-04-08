@@ -16,7 +16,7 @@ stages:
   steps:
   - applyAppConfig:
       catalogTemplate: p-jqjbc:vega-helmcharts-mod-pubsub
-      version: 0.1.32
+      version: 0.1.30
       answers:
         image.repository: docker.dev.folio.org/mod-pubsub
         image.tag: vega-${CICD_EXECUTION_SEQUENCE}
